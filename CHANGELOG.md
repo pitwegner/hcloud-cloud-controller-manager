@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.16.0](https://github.com/hetznercloud/hcloud-cloud-controller-manager/compare/v1.15.0-rc.0...v1.16.0) (2023-05-17)
+
+
+### Features
+
+* Go 1.20 ([#426](https://github.com/hetznercloud/hcloud-cloud-controller-manager/issues/426)) ([892c20e](https://github.com/hetznercloud/hcloud-cloud-controller-manager/commit/892c20e199e1aee64e731aa9f05e9320dfc5d1bd))
+* publish ARM container images ([#420](https://github.com/hetznercloud/hcloud-cloud-controller-manager/issues/420)) ([1c9294b](https://github.com/hetznercloud/hcloud-cloud-controller-manager/commit/1c9294bbf64afce1cbd07111d3ab7b43c1adf318))
+
+
+### Bug Fixes
+
+* **ci:** qemu binfmt wrappers during release ([#421](https://github.com/hetznercloud/hcloud-cloud-controller-manager/issues/421)) ([84a7541](https://github.com/hetznercloud/hcloud-cloud-controller-manager/commit/84a754170eab6ed8f91035c84692d9cd82712254))
+* **routes:** Only delete routes in the Cluster CIDR ([#432](https://github.com/hetznercloud/hcloud-cloud-controller-manager/issues/432)) ([c35d292](https://github.com/hetznercloud/hcloud-cloud-controller-manager/commit/c35d292b72003bd48203a6fa0fa476113633406a))
+
+
+### Continuous Integration
+
+* setup release-please ([#437](https://github.com/hetznercloud/hcloud-cloud-controller-manager/issues/437)) ([bbec89e](https://github.com/hetznercloud/hcloud-cloud-controller-manager/commit/bbec89ef9e1c6bf75b06dec4abdafc14afe549c9))
+
 ## v1.15.0
 
 Affordable, sustainable & powerful! 🚀You can now get one of our Arm64 CAX servers to optimize your operations while minimizing your costs!
